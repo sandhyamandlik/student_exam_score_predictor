@@ -29,33 +29,11 @@ The dataset `StudentPerformanceFactors.csv` contains records of student demograp
 - Sleep Hours
 - Gender, Family Income, and more...
 
-# 🚀 Installation
+# How to Run Locally 
 
-# 🚀 Installation
-
-## 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/student-score-predictor.git
-2. Go to the project directory and install dependencies
-bash
-Copy code
-cd student-score-predictor
-pip install flask pandas scikit-learn joblib flask-cors
-3. Train the Machine Learning model
-bash
-Copy code
-python retrain_model.py
-4. Start the application
-bash
-Copy code
-python student_score_predictor.py
-5. Open in browser
-After the server starts, open your browser and visit:
-
-cpp
-Copy code
-http://127.0.0.1:5000
-
-
+1. git clone https://github.com/your-username/student-score-predictor.git
+2. cd student-score-predictor
+3. pip install flask pandas scikit-learn joblib flask-cors
+4. python retrain_model.py
+5. python student_score_predictor.py
 
